@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.game-container {
+  text-align: center;
+  border: 3px solid black;
+  padding: 20px 30px 30px 30px; 
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#score {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+#gameCanvas {
+  background-color: black;
+  border: 10px solid white; /* Aumentado para que se note el marco */
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 380px;
+  height: 380px;
+}
+
+#startButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startButton:hover {
+  background-color: #45a049;
+}
+
+#gameOverText {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: red;
+  font-weight: bold;
+}
