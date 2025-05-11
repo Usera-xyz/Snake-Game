@@ -37,7 +37,7 @@ h1 {
 
 #gameCanvas {
   background-color: black;
-  border: 10px solid white; /* Aumentado para que se note el marco */
+  border: 10px solid white; 
   display: block;
   margin: 0 auto 20px auto;
   width: 380px;
